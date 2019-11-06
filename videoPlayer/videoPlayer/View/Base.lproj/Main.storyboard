@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="videoPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLI-NH-gh1">
+                                <rect key="frame" x="0.0" y="331.5" width="414" height="233"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cLI-NH-gh1" secondAttribute="height" multiplier="16:9" id="CFw-oS-URW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9x-X5-fbN">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Kq4-1L-eN2">
+                                        <rect key="frame" x="111.5" y="10" width="191" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKR-CD-mtA">
+                                                <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
+                                                <state key="normal" title="뒤로가기"/>
+                                                <connections>
+                                                    <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDv-hq-Zc8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxv-se-ajv">
+                                                <rect key="frame" x="72" y="0.0" width="30" height="30"/>
+                                                <state key="normal" title="재생"/>
+                                                <connections>
+                                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ica-WO-1CZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Dq-Rr-82D">
+                                                <rect key="frame" x="122" y="0.0" width="69" height="30"/>
+                                                <state key="normal" title="앞으로 가기"/>
+                                                <connections>
+                                                    <action selector="forwardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ji-wI-bLE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0AL-Gb-oIc"/>
+                                    <constraint firstItem="Kq4-1L-eN2" firstAttribute="centerX" secondItem="Y9x-X5-fbN" secondAttribute="centerX" id="2aO-1T-UAC"/>
+                                    <constraint firstItem="Kq4-1L-eN2" firstAttribute="centerY" secondItem="Y9x-X5-fbN" secondAttribute="centerY" id="T0u-3V-Kb5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cLI-NH-gh1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5pg-OF-uMn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y9x-X5-fbN" secondAttribute="bottom" id="E0V-dv-VXV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y9x-X5-fbN" secondAttribute="trailing" id="fFa-AL-fKs"/>
+                            <constraint firstItem="Y9x-X5-fbN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nae-5v-NYs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cLI-NH-gh1" secondAttribute="trailing" id="qoJ-n4-TuP"/>
+                            <constraint firstItem="cLI-NH-gh1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tOS-Fh-MdP"/>
+                            <constraint firstItem="cLI-NH-gh1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wgj-4Z-Mcd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoView" destination="cLI-NH-gh1" id="VVM-zw-hIZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

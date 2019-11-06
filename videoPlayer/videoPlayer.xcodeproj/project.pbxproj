@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC158F42237275CE002296A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC158F41237275CE002296A1 /* AppDelegate.swift */; };
-		CC158F44237275CE002296A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC158F43237275CE002296A1 /* ViewController.swift */; };
-		CC158F47237275CE002296A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC158F45237275CE002296A1 /* Main.storyboard */; };
-		CC158F49237275CF002296A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC158F48237275CF002296A1 /* Assets.xcassets */; };
-		CC158F4C237275CF002296A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC158F4A237275CF002296A1 /* LaunchScreen.storyboard */; };
+		CC77A7D423727E6D001484CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77A7D323727E6D001484CD /* AppDelegate.swift */; };
+		CC77A7D623727E6D001484CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77A7D523727E6D001484CD /* ViewController.swift */; };
+		CC77A7D923727E6D001484CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC77A7D723727E6D001484CD /* Main.storyboard */; };
+		CC77A7DB23727E6E001484CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC77A7DA23727E6E001484CD /* Assets.xcassets */; };
+		CC77A7DE23727E6E001484CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC77A7DC23727E6E001484CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC158F3E237275CE002296A1 /* videoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC158F41237275CE002296A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC158F43237275CE002296A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC158F46237275CE002296A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC158F48237275CF002296A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC158F4B237275CF002296A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC158F4D237275CF002296A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC77A7D023727E6D001484CD /* videoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC77A7D323727E6D001484CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC77A7D523727E6D001484CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC77A7D823727E6D001484CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC77A7DA23727E6E001484CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC77A7DD23727E6E001484CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC77A7DF23727E6E001484CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC158F3B237275CE002296A1 /* Frameworks */ = {
+		CC77A7CD23727E6D001484CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +35,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC158F35237275CE002296A1 = {
+		CC77A7C723727E6D001484CD = {
 			isa = PBXGroup;
 			children = (
-				CC158F40237275CE002296A1 /* videoPlayer */,
-				CC158F3F237275CE002296A1 /* Products */,
+				CC77A7D223727E6D001484CD /* videoPlayer */,
+				CC77A7D123727E6D001484CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC158F3F237275CE002296A1 /* Products */ = {
+		CC77A7D123727E6D001484CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC158F3E237275CE002296A1 /* videoPlayer.app */,
+				CC77A7D023727E6D001484CD /* videoPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC158F40237275CE002296A1 /* videoPlayer */ = {
+		CC77A7D223727E6D001484CD /* videoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CC158F41237275CE002296A1 /* AppDelegate.swift */,
-				CC158F43237275CE002296A1 /* ViewController.swift */,
-				CC158F45237275CE002296A1 /* Main.storyboard */,
-				CC158F48237275CF002296A1 /* Assets.xcassets */,
-				CC158F4A237275CF002296A1 /* LaunchScreen.storyboard */,
-				CC158F4D237275CF002296A1 /* Info.plist */,
+				CC77A7E823727E73001484CD /* Controller */,
+				CC77A7E723727E72001484CD /* View */,
+				CC77A7E623727E71001484CD /* Model */,
+				CC77A7E523727E70001484CD /* Supporting Files */,
 			);
 			path = videoPlayer;
+			sourceTree = "<group>";
+		};
+		CC77A7E523727E70001484CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC77A7DC23727E6E001484CD /* LaunchScreen.storyboard */,
+				CC77A7DF23727E6E001484CD /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC77A7E623727E71001484CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC77A7E723727E72001484CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC77A7D723727E6D001484CD /* Main.storyboard */,
+				CC77A7DA23727E6E001484CD /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC77A7E823727E73001484CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC77A7D323727E6D001484CD /* AppDelegate.swift */,
+				CC77A7D523727E6D001484CD /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC158F3D237275CE002296A1 /* videoPlayer */ = {
+		CC77A7CF23727E6D001484CD /* videoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC158F50237275CF002296A1 /* Build configuration list for PBXNativeTarget "videoPlayer" */;
+			buildConfigurationList = CC77A7E223727E6E001484CD /* Build configuration list for PBXNativeTarget "videoPlayer" */;
 			buildPhases = (
-				CC158F3A237275CE002296A1 /* Sources */,
-				CC158F3B237275CE002296A1 /* Frameworks */,
-				CC158F3C237275CE002296A1 /* Resources */,
+				CC77A7CC23727E6D001484CD /* Sources */,
+				CC77A7CD23727E6D001484CD /* Frameworks */,
+				CC77A7CE23727E6D001484CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +113,25 @@
 			);
 			name = videoPlayer;
 			productName = videoPlayer;
-			productReference = CC158F3E237275CE002296A1 /* videoPlayer.app */;
+			productReference = CC77A7D023727E6D001484CD /* videoPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC158F36237275CE002296A1 /* Project object */ = {
+		CC77A7C823727E6D001484CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "강병우";
 				TargetAttributes = {
-					CC158F3D237275CE002296A1 = {
+					CC77A7CF23727E6D001484CD = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = CC158F39237275CE002296A1 /* Build configuration list for PBXProject "videoPlayer" */;
+			buildConfigurationList = CC77A7CB23727E6D001484CD /* Build configuration list for PBXProject "videoPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +139,54 @@
 				en,
 				Base,
 			);
-			mainGroup = CC158F35237275CE002296A1;
-			productRefGroup = CC158F3F237275CE002296A1 /* Products */;
+			mainGroup = CC77A7C723727E6D001484CD;
+			productRefGroup = CC77A7D123727E6D001484CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC158F3D237275CE002296A1 /* videoPlayer */,
+				CC77A7CF23727E6D001484CD /* videoPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC158F3C237275CE002296A1 /* Resources */ = {
+		CC77A7CE23727E6D001484CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC158F4C237275CF002296A1 /* LaunchScreen.storyboard in Resources */,
-				CC158F49237275CF002296A1 /* Assets.xcassets in Resources */,
-				CC158F47237275CE002296A1 /* Main.storyboard in Resources */,
+				CC77A7DE23727E6E001484CD /* LaunchScreen.storyboard in Resources */,
+				CC77A7DB23727E6E001484CD /* Assets.xcassets in Resources */,
+				CC77A7D923727E6D001484CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC158F3A237275CE002296A1 /* Sources */ = {
+		CC77A7CC23727E6D001484CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC158F44237275CE002296A1 /* ViewController.swift in Sources */,
-				CC158F42237275CE002296A1 /* AppDelegate.swift in Sources */,
+				CC77A7D623727E6D001484CD /* ViewController.swift in Sources */,
+				CC77A7D423727E6D001484CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC158F45237275CE002296A1 /* Main.storyboard */ = {
+		CC77A7D723727E6D001484CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC158F46237275CE002296A1 /* Base */,
+				CC77A7D823727E6D001484CD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CC158F4A237275CF002296A1 /* LaunchScreen.storyboard */ = {
+		CC77A7DC23727E6E001484CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC158F4B237275CF002296A1 /* Base */,
+				CC77A7DD23727E6E001484CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CC158F4E237275CF002296A1 /* Debug */ = {
+		CC77A7E023727E6E001484CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		CC158F4F237275CF002296A1 /* Release */ = {
+		CC77A7E123727E6E001484CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,13 +310,13 @@
 			};
 			name = Release;
 		};
-		CC158F51237275CF002296A1 /* Debug */ = {
+		CC77A7E323727E6E001484CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5K2X34XNP;
-				INFOPLIST_FILE = videoPlayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/videoPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,13 +328,13 @@
 			};
 			name = Debug;
 		};
-		CC158F52237275CF002296A1 /* Release */ = {
+		CC77A7E423727E6E001484CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5K2X34XNP;
-				INFOPLIST_FILE = videoPlayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/videoPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC158F39237275CE002296A1 /* Build configuration list for PBXProject "videoPlayer" */ = {
+		CC77A7CB23727E6D001484CD /* Build configuration list for PBXProject "videoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC158F4E237275CF002296A1 /* Debug */,
-				CC158F4F237275CF002296A1 /* Release */,
+				CC77A7E023727E6E001484CD /* Debug */,
+				CC77A7E123727E6E001484CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC158F50237275CF002296A1 /* Build configuration list for PBXNativeTarget "videoPlayer" */ = {
+		CC77A7E223727E6E001484CD /* Build configuration list for PBXNativeTarget "videoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC158F51237275CF002296A1 /* Debug */,
-				CC158F52237275CF002296A1 /* Release */,
+				CC77A7E323727E6E001484CD /* Debug */,
+				CC77A7E423727E6E001484CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC158F36237275CE002296A1 /* Project object */;
+	rootObject = CC77A7C823727E6D001484CD /* Project object */;
 }
